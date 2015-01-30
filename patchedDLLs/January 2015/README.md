@@ -37,19 +37,25 @@ Assembly-CSharp.dll
 -------------------
 
 `ildasm /text Assembly-CSharp.dll /output=Assembly-CSharp.il`
+
 `patch -p1 < patches/Assembly-CSharp.il.patch`
+
 `ilasm /dll Assembly-CSharp.il /output:Assembly-CSharp.dll`
 
 LegendsOfEquestria.Data.dll
 -------------------
 
 `ildasm /text LegendsOfEquestria.Data.dll /output=LegendsOfEquestria.Data.il`
+
 `patch -p1 < patches/LegendsOfEquestria.Data.il.patch`
+
 `ilasm /dll LegendsOfEquestria.Data.il /output:LegendsOfEquestria.Data.dll`
 
 LoE.Shared.dll
 -------------------
 
 `ildasm /text LoE.Shared.dll /output=LoE.Shared.il`
+
 `patch -p1 < patches/LoE.Shared.il.patch`
+
 `ilasm /dll LoE.Shared.il /output:LoE.Shared.dll`
