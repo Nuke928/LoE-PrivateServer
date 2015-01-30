@@ -1,0 +1,20 @@
+--- LegendsOfEquestria.Data.original.il	Fri Jan 30 14:36:21 2015
++++ LegendsOfEquestria.Data.il	Fri Jan 30 14:36:55 2015
+@@ -6025,7 +6025,7 @@
+ 
+   } // end of class '<>c__DisplayClass17'
+ 
+-  .field public static literal string WEB_DATA_LOCATION = "http://loedata.legendsofequestria.com/data/"
++  .field public static literal string WEB_DATA_LOCATION = "127.0.0.1:1034/data/"
+   .field private static class [mscorlib]System.Collections.Generic.Dictionary`2<int32,class LoE.Data.Item> items
+   .field private static class [mscorlib]System.Collections.Generic.Dictionary`2<int32,class LoE.Data.Recipe> recipes
+   .field private static class [mscorlib]System.Collections.Generic.Dictionary`2<int32,class LoE.Data.CutieMark> cutieMarks
+@@ -6807,7 +6807,7 @@
+              bool V_22)
+     .try
+     {
+-      IL_0000:  ldstr      "http://loedata.legendsofequestria.com/data//"
++      IL_0000:  ldstr      "127.0.0.1:1034/data//"
+       IL_0005:  stloc.0
+       IL_0006:  ldarg.0
+       IL_0007:  ldstr      "CutieMarks.xml"
